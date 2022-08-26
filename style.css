@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+table {
+    border: 1px solid #fff;
+    margin: auto;
+
+}
+
+table td {
+    height: 100px;
+    width: 100px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: aqua;
+    background-size: 300px 300px;
+    
+}
+
+
+
