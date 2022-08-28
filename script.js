@@ -202,32 +202,39 @@ function ending_comment() {
 
 // select background picture
 
+
 function randomBackground() {
     
-
     var rbg = document.querySelectorAll('td');
+    var fullPic = document.querySelector('#fullPicture')
 
     var bgselect = Math.floor(Math.random() * 4)+1
+
 
     rbg.forEach((td) => {
 
         if( bgselect == 1) {
             td.style.backgroundImage = "url('rbgs/facebook.png')"
+            fullPic.style.backgroundImage = "url('rbgs/facebook.png')"
         }
         else if( bgselect == 2) {
             td.style.backgroundImage = "url('rbgs/instagram.png')"
+            fullPic.style.backgroundImage = "url('rbgs/instagram.png')"
         }
         else if( bgselect == 3) {
             td.style.backgroundImage = "url('rbgs/warning.png')"
+            fullPic.style.backgroundImage = "url('rbgs/warning.png')"
         }
         else if( bgselect == 4) {
             td.style.backgroundImage = "url('rbgs/전구.png')"
+            fullPic.style.backgroundImage = "url('rbgs/전구.png')"
         }
     })
 }
 
 
+
+
 picturesRandom()
 start()
 
-sizeof
